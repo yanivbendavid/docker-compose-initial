@@ -26,3 +26,7 @@
 ::1 - - [08/Sep/2020:06:32:10 +0000] "DELETE /goals/5f57256384f593260becbadc HTTP/1.1" 200 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
 ::1 - - [08/Sep/2020:06:32:11 +0000] "GET /goals HTTP/1.1" 200 12 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
 ::1 - - [08/Sep/2020:06:32:12 +0000] "GET /goals HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+::ffff:192.168.238.1 - - [03/May/2022:10:56:58 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+::ffff:192.168.238.1 - - [03/May/2022:10:57:04 +0000] "GET /goals HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+::ffff:192.168.238.1 - - [03/May/2022:10:57:04 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://192.168.238.128/goals" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+::ffff:192.168.238.1 - - [03/May/2022:11:01:49 +0000] "GET /3000 HTTP/1.1" 404 143 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
